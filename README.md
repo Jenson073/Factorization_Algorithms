@@ -33,7 +33,7 @@ This project is a simple web application designed to explore the factorization o
 
 1. Clone this repository to your local machine:  
    ```bash
-   git clone https://github.com/yourusername/rsa-factorization-web-app.git
+   git clone https://github.com/Jenson073/rsa-factorization-web-app.git
 2. Ensure you have a local server like XAMPP or WAMP installed.
 3. Place the project files in the server's root directory (e.g., htdocs for XAMPP).
 4. Enter a large composite number, click "Factorize," and explore the results with different factorization methods and time comparisons.
