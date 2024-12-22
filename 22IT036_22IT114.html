@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorization Methods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Factorization Methods</h1>
+        <form method="POST" action="process.php">
+            <label for="number">Enter a number:</label>
+            <input type="number" name="number" id="number" required>
+            
+            <label for="method">Choose a method:</label>
+            <select name="method" id="method" required>
+                <option value="fermat">Fermat's Factorization</option>
+                <option value="trial">Trial Division</option>
+                <option value="pollard">Pollard's Rho</option>
+            </select>
+
+            <button type="submit">Factorize</button>
+        </form>
+    </div>
+</body>
+</html>
