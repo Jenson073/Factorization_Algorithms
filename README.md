@@ -37,5 +37,6 @@ This project is a simple web application designed to explore the factorization o
 2. Ensure you have a local server like XAMPP or WAMP installed.
 3. Place the project files in the server's root directory (e.g., htdocs for XAMPP).
 4. Enter a large composite number, click "Factorize," and explore the results with different factorization methods and time comparisons.
+Sample Large Input - 175230317
 
 ---
